@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 
-var s string
+var (
+	s string
+	i int
+)
 
 func logging() {
 	fmt.Println("Selesai memanggil function")
