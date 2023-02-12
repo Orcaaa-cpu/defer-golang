@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var s string
+
 func logging() {
 	fmt.Println("Selesai memanggil function")
 }
